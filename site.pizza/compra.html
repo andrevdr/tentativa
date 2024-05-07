@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delícia</title>
+    <link rel="stylesheet" href="./style/compra.css">
+</head>
+<body>
+  
+    <header>
+        <h1
+        id="pix">Pizzaria Delícia</h1>
+        <img src="/image/loogoss.png" alt="">
+        <nav class="elem">
+          <ul>
+            <li><a href="/inicio.html">inicio</a></li>
+            <li><a href="./cardapio.html">Cardápio</a></li>
+            <li><a href="/nada.html">Sobre nós</a></li>
+            <li><a href="/login.html">Entrar</a></li>
+          </ul>
+         
+
+        </nav>
+      </header>
+      
+
+       <h1>Você Selecionou:Pizza </h1>
+<div>
+    <select name="role" id="pizza"
+    class="elem">
+      <option value="">selecione uma Pizza </option>
+      <option value="">Pizza Margherita</option>
+      <option value="">Pizza Pepperoni</option>
+      <option value="">Pizza Portuguesa</option>
+      <option value="">Pizza Frango com catupiry</option>
+      <option value="">Pizza Quatro queijos</option>
+      <option value="">Pizza Portuguesa</option>
+      <option value="">Pizza Portuguesa</option>
+      <option value="">Pizza Portuguesa</option>
+      <option value="">Pizza Portuguesa</option>
+     
+      </select>
+     
+   <p>Quais Opsionais você deseja? </p>
+      <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+      <input type="checkbox" name="opcional[]" value="calabresa"> + calçabresa <br>
+      <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+      <input type="checkbox" name="opcional[]" value="tomate"> + tomate <br>
+   <p>borda recheada</p>
+      <input type="radio" name="borda" value="sim"> + sim <br>
+      <input type="radio" name="borda" value="não"> + não <br>
+   <p>bebida</p>
+      <input type="radio" name="bebida" value="suco"> + suco <br>
+      <input type="radio" name="bebida" value="refrigerante"> + refrigerante <br>
+      <input type="radio" name="bebida" value="água"> + água <br>
+      <input type="radio" name="bebida" value="nenhum"> + nenhum <br>
+       
+<button type="button " class="elem" onclick="alert('enviado')" id="pedir" >Enviar Pedido </button> 
+</div>
+
+
+<footer>
+  <p>&copy; 2024 Pizzaria Delícia. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
+
+
+    <!--  (localizaçao do cliente) <!DOCTYPE html>
+<html>
+<body>
+<p id="demo">Clique no botão para obter sua localização:</p>
+<button onclick Adicione mais pizzas aqui ="getLocation()">Clique aqui</button>
+<div id="mapholder"></div>
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Geolocalização não é suportada nesse browser.";}
+  }
+ 
+function showPosition(position)
+  {
+  lat=position.coords.latitude;
+  lon=position.coords.longitude;
+  latlon=new google.maps.LatLng(lat, lon)
+  mapholder=document.getElementById('mapholder')
+  mapholder.style.height='250px';
+  mapholder.style.width='500px';
+ 
+  var myOptions={
+  center:latlon,zoom:14,
+  mapTypeId:google.maps.MapTypeId.ROADMAP,
+  mapTypeControl:false,
+  navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
+  };
+  var map=new google.maps.Map(document.getElementById("mapholder"),myOptions);
+  var marker=new google.maps.Marker({position:latlon,map:map,title:"Você está Aqui!"});
+  }
+ 
+function showError(error)
+  {
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="Usuário rejeitou a solicitação de Geolocalização."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Localização indisponível."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="O tempo da requisição expirou."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="Algum erro desconhecido aconteceu."
+      break;
+    }
+  }
+</script>
+</body>
+</html>
+ 
+
+                                                              -->

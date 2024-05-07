@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+  margin-top: 0%;
+  }
+  
+  body{
+    text-align: center;
+    background-color: #92890f;
+  }
+    
+    /* Basic Styles */
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+    }
+  
+    nav ul {
+      list-style-type: none;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+    }
+  /* esse codigo serve para */
+  
+    .elem:hover {
+      transform: scale(1.1);
+    }
+  /*esse codigo serve para aumentar a letra quando passa o mause*/
+  
+   
+  header {
+   
+    background: linear-gradient(68.15deg, #e4fd00b6 16.62%, hsla(155, 100%, 50%, 0.801) 85.61%);
+    margin-top: 0px;
+      width: 100%;
+      height: 100%;
+      
+    }    
+
+    header h1 {
+      color: #000000;
+      
+    } 
+    header img{
+      width: 100px;
+      padding-top: 0%;
+
+    }
+footer{
+    background: #333;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 10;
+    left: 0;
+  
+    }
+    #foter{
+      color: #fff;
+    }
+    #tudo{
+      height: 1000px;
+      width: 1000px;
+    }
